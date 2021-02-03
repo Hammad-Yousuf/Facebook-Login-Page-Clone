@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f0f2f5;
+    width: 100%;
+    height: auto
+}
+#main{
+    min-height: 100vh!important;
+    display: flex;
+    align-items: center!important;
+}
+.facebook-title-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.facebook-title{
+    min-height: 30vh !important;
+    align-self: center;
+}
+
+.facebook-text{
+    font-size: 25px;
+    color: black;
+    margin-left: 5vh; 
+}
+
+.facebook-login{
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 5px 5px #b4b3b3;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    min-height: auto;
+}
+.login-input{
+    height: 8vh;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+}
+.login-button{
+    height: 8vh;
+    background: #1877f2;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.login-button:hover, .login-button:focus{
+    color: #fff;
+    background: #3285f1;
+}
+.forgot-password{
+    color: #1877f2;
+    margin: 10px;
+    cursor: pointer;
+}
+.forgot-password:hover{
+    text-decoration: underline #1877f2;
+}
+.signup-button{
+    background: #42b72a;
+    font-weight: bolder;
+    color: #fff;
+    width: auto;
+    text-overflow: ellipsis;
+}
+.signup-button:hover, .signup-button:focus{
+    color: #fff;
+    background: #52c73b;
+    outline: none;
+}
+.create-page-link{
+    color: #000;
+    font-weight: bolder;
+}
+.create-page-link:hover{
+    color: #000;
+    text-decoration: underline;
+}
+@media (max-width: 768px){
+    .facebook-img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .facebook-text{
+        display: none;
+    }
+    .login-button{
+        padding-bottom: 10vh;
+    }
+}
