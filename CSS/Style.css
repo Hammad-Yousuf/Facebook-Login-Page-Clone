@@ -84,10 +84,7 @@ body{
     text-decoration: underline;
 }
 @media (max-width: 768px){
-    .facebook-img{
-        width: 50%;
-        margin: 0 auto;
-    }
+
     .facebook-text{
         display: none;
     }
