@@ -19,6 +19,7 @@ body{
 }
 .facebook-title{
     min-height: 30vh !important;
+    align-self: center;
 }
 
 .facebook-text{
