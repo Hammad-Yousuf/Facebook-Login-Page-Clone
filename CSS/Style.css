@@ -84,9 +84,11 @@ body{
     text-decoration: underline;
 }
 @media (max-width: 768px){
-
+    .facebook-img{
+        text-align: center;
+    }
     .facebook-text{
-        display: none;
+        text-align: justify;
     }
     .login-button{
         padding-bottom: 10vh;
