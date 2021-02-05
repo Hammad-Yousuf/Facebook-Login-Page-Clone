@@ -8,7 +8,7 @@ body{
     height: auto
 }
 #main{
-    min-height: 100vh!important;
+    height: 100vh!important;
     display: flex;
     align-items: center!important;
 }
